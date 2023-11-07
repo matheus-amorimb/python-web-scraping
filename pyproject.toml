@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "web-scraping"
+version = "0.1.0"
+description = ""
+authors = ["Matheus Batista <mbatista.sarti@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.15.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ignr = "^2.2"
+blue = "^0.9.1"
+pytest = "^7.4.3"
+beautifulsoup4 = "^4.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
